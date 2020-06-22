@@ -15,19 +15,19 @@ fetch('https://www.dolarsi.com/api/api.php?type=valoresprincipales')
 
 		let dollarValue = document.getElementById('dollarId');
 
-		dollarValue.innerHTML = converted * parseInt(datos[0].casa.venta);
+		dollarValue.innerHTML = converted * parseFloat(datos[0].casa.venta);
 
 		let dollarBlueValue = document.getElementById('dollarBlueId');
 
-		dollarBlueValue.innerHTML = converted * parseInt(datos[1].casa.venta);
+		dollarBlueValue.innerHTML = converted * parseFloat(datos[1].casa.venta);
 
 		let euroValue = document.getElementById('euroId');
 
-		euroValue.innerHTML = converted * parseInt(datos[3].casa.venta);
+		euroValue.innerHTML = converted * parseFloat(datos[3].casa.venta);
 
 		let euroBlueValue = document.getElementById('euroBlueId');
 
-		euroBlueValue.innerHTML = converted * parseInt(datos[4].casa.venta);
+		euroBlueValue.innerHTML = converted * parseFloat(datos[4].casa.venta);
 })
 
 
