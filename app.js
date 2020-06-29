@@ -3,7 +3,7 @@ var datos;
 fetch('https://www.dolarsi.com/api/api.php?type=valoresprincipales')
       .then(res => res.json())
 	  .then(data => datos = data)
-	  .then(() => console.log(datos))
+	  //.then(() => console.log(datos))
 
 
 
