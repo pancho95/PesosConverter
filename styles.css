@@ -65,3 +65,19 @@
 .color3{
 	background-color: #FF5733;
 }
+
+
+@media(max-width:380px){
+	.left form{
+		height: 100vh;
+		margin: 20px 0 0 0px;
+	}
+
+	.right h1{
+		margin: 50px 0 0 0px;
+	}
+
+	.right p{
+		margin-left: 0px;
+	}
+}
